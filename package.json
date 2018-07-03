@@ -1,0 +1,14 @@
+{
+  "name": "standard-api",
+  "version": "0.0.1",
+  "author": "Jeswin Kumar<jeswinpk@agilehead.com>",
+  "main": "dist/index",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "./build.sh"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.5.1"
+  }
+}
