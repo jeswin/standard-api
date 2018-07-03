@@ -1,15 +1,15 @@
-export interface IAPICallContext {
+export interface ICallContext {
   id: string;
 }
 
-export interface IAPIData<T> {
+export interface IData<T> {
   type: "data";
   data: T;
 }
 
-export interface IAPIError<T> {
+export interface IError<T> {
   type: "error";
   error: T;
 }
 
-export type APIResult<TData, TError> = IAPIData<TData> | IAPIError<TError>;
+export type CallResult<TData, TError> = IData<TData> | IError<TError>;
