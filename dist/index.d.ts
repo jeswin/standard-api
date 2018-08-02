@@ -1,5 +1,6 @@
 export interface ICallContext {
     id: string;
+    session: string;
 }
 export interface IData<T> {
     type: "data";
