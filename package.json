@@ -1,11 +1,11 @@
 {
   "name": "standard-api",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Jeswin Kumar<jeswinpk@agilehead.com>",
   "main": "dist/index",
   "types": "dist/index.d.ts",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^10.5.1"
+    "@types/node": "^13.13.4"
   }
 }
